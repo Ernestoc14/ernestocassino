@@ -4,7 +4,7 @@ import { JetBrains_Mono as MonoFont } from "next/font/google";
 import "./globals.css";
 
 const sans = localFont({
-    src: "./fonts/mona-sans.woff2",
+    src: "../utils/fonts/mona-sans.woff2",
     variable: "--font-sans",
     weight: "400 600 700 800",
 });
